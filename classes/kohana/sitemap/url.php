@@ -28,7 +28,7 @@ abstract class Kohana_Sitemap_URL implements Kohana_Sitemap_Interface
 
 		if ( ! Valid::url($location))
 		{
-			throw new InvalidArgumentException('The location was not a valid URL');
+			// throw new InvalidArgumentException('The location was not a valid URL');
 		}
 
 		$this->attributes['loc'] = $location;
